@@ -1,0 +1,30 @@
+.spinner{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.8);
+}
+
+.main-container{
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+.container {
+  max-width: 95%;
+  margin: 0 auto;
+  opacity: 1;
+  transition: opacity 1.0s ease;
+}
+
+.container.resizing {
+  opacity: 0.05;
+  transition: opacity 0.3s ease;
+}
+
+

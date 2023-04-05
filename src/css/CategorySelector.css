@@ -1,0 +1,20 @@
+.categories-wrapper {
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.select-categories {
+    display: block;
+    width: 100%;
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    transition: opacity 0.3s ease;
+}
+
+
+.select-categories:focus {
+    outline: none;
+}
